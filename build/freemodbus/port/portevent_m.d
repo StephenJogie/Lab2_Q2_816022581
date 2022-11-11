@@ -2,7 +2,7 @@ port/portevent_m.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freemodbus/port/portevent_m.c \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mb_m.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mbconfig.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
@@ -52,7 +52,7 @@ port/portevent_m.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/freemodbus/modbus/include/mbconfig.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/freemodbus/port/port.h:
 

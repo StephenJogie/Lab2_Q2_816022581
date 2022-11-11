@@ -3,7 +3,7 @@ source/esp_wifi_os_adapter.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
@@ -49,7 +49,7 @@ source/esp_wifi_os_adapter.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
 

@@ -2,7 +2,7 @@ src/ffunicode.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/fatfs/src/ffunicode.c \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/fatfs/src/ff.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/fatfs/src/ffconf.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -38,7 +38,7 @@ src/ffunicode.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/fatfs/src/ffconf.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
 

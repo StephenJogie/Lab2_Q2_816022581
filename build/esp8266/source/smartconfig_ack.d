@@ -8,7 +8,7 @@ source/smartconfig_ack.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -103,7 +103,7 @@ source/smartconfig_ack.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 

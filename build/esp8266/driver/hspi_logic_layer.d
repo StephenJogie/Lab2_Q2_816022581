@@ -3,7 +3,7 @@ driver/hspi_logic_layer.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/newlib/platform_include/sys/time.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -59,7 +59,7 @@ driver/hspi_logic_layer.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

@@ -2,7 +2,7 @@ source/phy_init.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/source/phy_init.c \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/uart.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_types.h \
@@ -33,7 +33,7 @@ source/phy_init.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h:
 

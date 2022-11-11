@@ -1,7 +1,7 @@
 src/eap_peer/eap_mschapv2.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/rsn_supp/wpa.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -47,7 +47,7 @@ src/eap_peer/eap_mschapv2.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/rsn_supp/wpa.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

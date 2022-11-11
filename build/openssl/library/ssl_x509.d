@@ -10,7 +10,7 @@ library/ssl_x509.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/openssl/include/internal/ssl_methods.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/openssl/include/internal/ssl_dbg.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_opt.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_port.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_types.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
@@ -43,7 +43,7 @@ library/ssl_x509.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_opt.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_port.h:
 

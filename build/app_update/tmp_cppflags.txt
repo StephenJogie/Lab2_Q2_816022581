@@ -1,1 +1,1 @@
-563521b-dirty gpio v3.4-65-gea598f11
+fc39e34-dirty gpio v3.4-65-gea598f11

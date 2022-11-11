@@ -1,6 +1,6 @@
 source/esp_wifi.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/source/esp_wifi.c \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -76,7 +76,7 @@ source/esp_wifi.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_crypto_types.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_aio.h
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h:
 

@@ -5,7 +5,6 @@
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-//#include "freertos/queue.h" 
 #include "freertos/semphr.h"
 //For this question, we will use a mutex 
 
@@ -13,11 +12,16 @@
 
 #include "esp_log.h"
 #include "esp_system.h"
+#include "esp_sleep.h"
 
 static const char *TAG = "main";
-//Use pre-emptive scheduling
-//#define configUSE_PREEMPTION 1;
-//#define configUSE_MUTEXES 1;
+//Use pre-emptive scheduling. Q2.a addition
+#define configUSE_PREEMPTION 1;
+/*
+NOTE about Q2.b
+The mutex already utilizes Priority Inheritance.
+Therefore, no addition change was needed
+*/
 
 #define GPIO_OUTPUT_IO_0    2
 #define GPIO_OUTPUT_PIN_SEL  ((1ULL<<GPIO_OUTPUT_IO_0))
@@ -81,9 +85,9 @@ static void task_2(void *arg)
             gpio_set_level(GPIO_OUTPUT_IO_0, output_low);
 
             //Active delay for 500ms (ish)
+            //NOTE: Replace with a function using xTaskGetTickCount
             for (uint32_t i=0;i<6500000;i++){
-                //I am unsure if this is the problem with triggering the task watchdog timer or not
-                //I will test without and with later to see
+                //This is around 500ms.
             }   
         
             //Give back the mutex after critical task section complete
@@ -159,7 +163,7 @@ void app_main(void)
     printf("TASK1 made  \n");
     xHandle_2 = xTaskCreate(task_2, "task_2", 2048, NULL, 10, NULL);
     printf("TASK2 made  \n");
-    xHandle_3 = xTaskCreate(task_3, "task_3", 2048, NULL, 11, NULL); 
+    xHandle_3 = xTaskCreate(task_3, "task_3", 2048, NULL, 10, NULL); 
     printf("TASK3 made  \n");
 
     int cnt = 0;

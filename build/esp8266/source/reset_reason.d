@@ -1,6 +1,6 @@
 source/reset_reason.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/source/reset_reason.c \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
@@ -17,7 +17,7 @@ source/reset_reason.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h:
 

@@ -2,7 +2,7 @@ src/crypto/crypto_mbedtls-bignum.o: \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/crypto/crypto_mbedtls-bignum.c \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
- /home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h \
+ /home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
  /home/stephenj/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h \
@@ -43,7 +43,7 @@ src/crypto/crypto_mbedtls-bignum.o: \
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
 
-/home/stephenj/esp/lab2q1/gpio/build/include/sdkconfig.h:
+/home/stephenj/esp/lab2q2/gpio/build/include/sdkconfig.h:
 
 /home/stephenj/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
 
