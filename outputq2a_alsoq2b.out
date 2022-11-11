@@ -1,0 +1,3792 @@
+picocom v3.1
+
+port is        : /dev/ttyUSB0
+flowcontrol    : none
+baudrate is    : 74880
+parity is      : none
+databits are   : 8
+stopbits are   : 1
+escape is      : C-a
+local echo is  : no
+noinit is      : no
+noreset is     : no
+hangup is      : no
+nolock is      : no
+send_cmd is    : sz -vv
+receive_cmd is : rz -vv -E
+imap is        : 
+omap is        : 
+emap is        : crcrlf,delbs,
+logfile is     : none
+initstring     : none
+exit_after is  : not set
+exit is        : no
+
+Type [C-a] [C-h] to see available commands
+Terminal ready
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7052, room 16 
+tail 12
+chksum 0x3e
+ho 0 tail 12 room 4
+load 0x3ffe8408, len 24, room 12 
+tail 12
+chksum 0x87
+ho 0 tail 12 room 4
+load 0x3ffe8420, len 3324, room 12 
+tail 0
+chksum 0x1a
+csum 0x1a
+[0;32mI (54) boot: ESP-IDF v3.4-65-gea598f11 2nd stage bootloader[0m
+[0;32mI (54) boot: compile time 19:15:14[0m
+[0;32mI (55) boot: SPI Speed      : 40MHz[0m
+[0;32mI (61) boot: SPI Mode       : DOUT[0m
+[0;32mI (67) boot: SPI Flash Size : 1MB[0m
+[0;32mI (73) boot: Partition Table:[0m
+[0;32mI (79) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (90) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (101) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (113) boot:  2 factory          factory app      00 00 00010000 000f0000[0m
+[0;32mI (125) boot: End of partition table[0m
+[0;32mI (131) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1635c ( 90972) map[0m
+[0;32mI (184) esp_image: segment 1: paddr=0x00026374 vaddr=0x4022636c size=0x05bac ( 23468) map[0m
+[0;32mI (195) esp_image: segment 2: paddr=0x0002bf28 vaddr=0x3ffe8000 size=0x003dc (   988) load[0m
+[0;32mI (196) esp_image: segment 3: paddr=0x0002c30c vaddr=0x40100000 size=0x00080 (   128) load[0m
+[0;32mI (209) esp_image: segment 4: paddr=0x0002c394 vaddr=0x40100080 size=0x04590 ( 17808) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+MUTEX CREATED SUCCESSFULLY 
+[0;32mI (252) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+GPIO 2 CONFIGURED AS OUTPUT 
+Going to attempt to make the tasks now 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK1 made  
+TASK 2 took semaphore 
+TASK2 made  
+task 3 took mutex 
+The output level of the PIN: 0 
+TASK3 made  
+COUNT = 1 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 2 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 3 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 4 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 5 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 6 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 7 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 8 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 9 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 10 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 11 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 12 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 13 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 14 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 15 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 16 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 17 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 18 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 19 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 20 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 21 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 22 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 23 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 24 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 25 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 26 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 27 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 28 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 29 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 30 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 31 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 32 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 33 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 34 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 35 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 36 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 37 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 38 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 39 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 40 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 41 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 42 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 43 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 44 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 45 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 46 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 47 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 48 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 49 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 3 took mutex 
+The output level of the PIN: 0 
+COUNT = 50 
+ 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+TASK 2 took semaphore 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 51 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 52 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 53 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 54 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 55 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 56 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 57 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 58 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 59 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 60 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 61 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 62 
+ 
+TASK 2 took semaphore 
+task 1 took semaphore thing 
+Active delay for 500ms 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Task3 can't take the mutex :( 
+Going to attempt to give back the mutex after resisting tempation (task1) 
+task1 gave back the mutex despite the temptations of inner greed 
+task1 task delay for 1000ms 
+task 3 took mutex 
+The output level of the PIN: 1 
+COUNT = 63 
+ 
+TASK 2 took semaphore 
+
+Terminating...
+Thanks for using picocom
