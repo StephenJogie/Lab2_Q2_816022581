@@ -15,12 +15,24 @@
 #include "esp_sleep.h"
 
 static const char *TAG = "main";
+static char pcWriteBuffer[2000];
+//Will reduce size when I 
 //Use pre-emptive scheduling. Q2.a addition
 #define configUSE_PREEMPTION 1;
 /*
 NOTE about Q2.b
 The mutex already utilizes Priority Inheritance.
 Therefore, no addition change was needed
+===============================================================================
+===============================================================================
+===============================================================================
+NOTE about q2 DISCUSS -> BRANCH: q2_discuss
+main resource used is vTaskGetRunTimeStats in task.h
+https://www.freertos.org/a00021.html#vTaskGetRunTimeStats for documentation
+From the above link it specifies that this disables interrupts
+This is also not intended for notmal application usage, only for debugging.
+Therefore, a separate branch is used for debugging specifically with this function.
+
 */
 
 #define GPIO_OUTPUT_IO_0    2
@@ -32,6 +44,7 @@ static SemaphoreHandle_t xMutex = NULL;
 static TaskHandle_t xHandle_1 = NULL;
 static TaskHandle_t xHandle_2 = NULL;
 static TaskHandle_t xHandle_3 = NULL;
+static TaskHandle_t xHandle_4 = NULL;
 
 
 static void task_1(void *arg)
@@ -132,6 +145,26 @@ static void task_3(void *arg)
     }
 }
 
+/*
+The getStatistics task will use the vTaskGetRunTimeStats function
+The parameter pcWriteBuffer will need to be approximately 40 bytes per task 
+The report of execution times will be written into this buffer
+
+*/
+static void getStatistics(void *arg)
+{
+    for(;;){
+        //The pcWriteBuffer is defined above as a char array [2000], this is to ensure it has enough space
+        vTaskDelay(10000/portTICK_RATE_MS);
+        vTaskGetRunTimeStats(pcWriteBuffer);
+        printf("\n \n***************************************************************\n");
+        printf("***************************************************************\n");
+        printf(pcWriteBuffer);
+        printf("\n \n***************************************************************\n");
+        printf("***************************************************************\n \n");
+    }
+}
+
 void app_main(void)
 {
     xMutex = xSemaphoreCreateMutex();
@@ -165,8 +198,10 @@ void app_main(void)
     printf("TASK2 made  \n");
     xHandle_3 = xTaskCreate(task_3, "task_3", 2048, NULL, 10, NULL); 
     printf("TASK3 made  \n");
-
+    xHandle_4 = xTaskCreate(getStatistics, "getStatistics", 2048, NULL, 10, NULL); 
+    printf("GET STATS TASK made  \n");
     int cnt = 0;
+
     //While loop
     while(1){
         //Put main loop function here
@@ -174,6 +209,8 @@ void app_main(void)
         cnt++;
         //ESP_LOGI(TAG, "cnt: %d \n", cnt);
         printf("COUNT = %d \n \n",cnt);
+        printf("***************************************************************\n");
+        printf("***************************************************************\n");
         vTaskDelay(1000 / portTICK_RATE_MS);
     }
 
